@@ -1,0 +1,26 @@
+{
+  "name": "cryptoalerts",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Price Monitoring and Alert Notification Platform",
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "worker": "npm run worker --prefix backend",
+    "test": "npm test --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "node backend/src/server.js"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "crypto-alerts",
+    "rabbitmq",
+    "mongodb",
+    "nodejs",
+    "express",
+    "react",
+    "coingecko",
+    "node-cron"
+  ],
+  "author": "Google DeepMind Engineer",
+  "license": "MIT"
+}
