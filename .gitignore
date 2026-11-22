@@ -34,3 +34,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Private Local Interview Notes (Never commit to GitHub)
+INTERVIEW_PREPARATION_GUIDE.md
